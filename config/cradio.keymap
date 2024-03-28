@@ -68,10 +68,10 @@
 
         layer_4 {
             bindings = <
-&kp TAB  &trans  &trans  &trans  &trans             &trans          &kp LA(LG(NUMBER_1))  &kp LA(LG(NUMBER_2))  &kp LA(LG(NUMBER_9))  &kp LA(LG(NUMBER_0))
-&kp ESC  &trans  &trans  &trans  &kp C_VOLUME_UP    &kp LEFT_ARROW  &kp DOWN_ARROW        &kp UP_ARROW          &kp RIGHT_ARROW       &kp PRINTSCREEN
-&trans   &trans  &trans  &trans  &kp C_VOL_DN       &kp HOME        &kp END               &trans                &trans                &trans
-                         &trans  &trans             &trans          &trans
+&kp F1   &kp F2  &kp F3  &kp F4   &kp F5             &trans          &kp LA(LG(NUMBER_1))  &kp LA(LG(NUMBER_2))  &kp LA(LG(NUMBER_9))  &kp LA(LG(NUMBER_0))
+&kp TAB  &trans  &trans  &kp ESC  &kp C_VOLUME_UP    &kp LEFT_ARROW  &kp DOWN_ARROW        &kp UP_ARROW          &kp RIGHT_ARROW       &kp PRINTSCREEN
+&trans   &trans  &trans  &trans   &kp C_VOL_DN       &kp HOME        &kp END               &trans                &trans                &trans
+                         &trans   &trans             &trans          &trans
             >;
         };
     };
